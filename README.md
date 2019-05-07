@@ -23,11 +23,11 @@ Great sensor right? As a member of our Qwiic family, the board incorporates the 
 * Operation Voltage: 3.3V
 * Current Consumption: 2.7μA
 * Barometric Pressure Measure
-...* Range: 300 – 1100 hPa
-...* Accuracy: ±1.0 hPa
+  * Range: 300 – 1100 hPa
+  * Accuracy: ±1.0 hPa
 * Temperature Measurement
-...* Range: -40 to 85
-...* Accuracy: ±1
+  * Range: -40 to 85
+  * Accuracy: ±1
 * Interface: I2C and SPI
 * Port: I2C (selectable address at 0x77(default) and 0x76)
 * Dimensions: 16.5mm x 25.3mm
