@@ -1,4 +1,4 @@
-# Zio-Qwiic-Air-Pressure-Sensor-BMP280
+# Zio Qwiic Air Pressure Sensor BMP280
 
 
 ![](bmp280.png)
