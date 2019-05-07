@@ -1,6 +1,13 @@
 # Zio-Qwiic-Air-Pressure-Sensor-BMP280
 
-Description
+
+![](bmp280.png)
+
+> This product can be available for purchase [here](https://www.smart-prototyping.com/Zio-Qwiic-Air-Pressure-Sensor-BMP280).
+
+
+
+##### Description
 
 This little board features a high precision BMP280 Barometric Pressure and Altitude Sensor by Bosch. The sensor is not only capable of sensing pressure and altitude but it also environmental temperature, almost all the data you need around atmospheric conditions.
 
@@ -11,24 +18,30 @@ As the altitude increases, the atmospheric pressure decreases - and due to the s
 Great sensor right? As a member of our Qwiic family, the board incorporates the Qwiic connector for easy wiring to use I2C interface. But this great little sensor can use either I2C or SPI so we made it pretty accessible to switch to SPI. Simply solder the header pins provided if you want to go for it!
 
 
-Specification
+##### Specification
 
-    Operation Voltage: 3.3V
-    Current Consumption: 2.7μA
-    Barometric Pressure Measure
-        Range: 300 – 1100 hPa
-        Accuracy: ±1.0 hPa
-    Temperature Measurement
-        Range: -40 to 85
-        Accuracy: ±1
-    Interface: I2C and SPI
-    Port: I2C (selectable address at 0x77(default) and 0x76)
-    Dimensions: 16.5mm x 25.3mm
-    Weight: 1.4g
+* Operation Voltage: 3.3V
+* Current Consumption: 2.7μA
+* Barometric Pressure Measure
+...* Range: 300 – 1100 hPa
+...* Accuracy: ±1.0 hPa
+* Temperature Measurement
+...* Range: -40 to 85
+...* Accuracy: ±1
+* Interface: I2C and SPI
+* Port: I2C (selectable address at 0x77(default) and 0x76)
+* Dimensions: 16.5mm x 25.3mm
+* Weight: 1.4g
 
 
-Links
+##### Links
 
-For testing code, we recommend use adafruit's BMP280 library, check the link here: https://github.com/adafruit/Adafruit_BMP280_Library
+* [Eagle File & Schematic](https://github.com/ZIOCC/Zio-Qwiic-Air-Pressure-Sensor-BMP280)
+* [BMP280 library Link](https://github.com/adafruit/Adafruit_BMP280_Library)
+* [BMP280 Datasheet](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)
 
-BMP280 Datasheet: https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf
+
+
+
+> ###### About Zio
+> Zio is a new line of open sourced, compact, and grid layout boards, fully integrated for Arduino and Qwiic ecosystem. Designed ideally for wearables, robotics, small-space limitations or other on the go projects. Check out other awesome Zio products [here](https://www.smart-prototyping.com/Zio).
